@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
+  root 'railway_stations#index'
   resources :trains
-  #root
   resources :railway_stations
 end
