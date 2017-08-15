@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 20170815212444) do
   end
 
   create_table "trains", force: :cascade do |t|
+    t.integer "railway_station_id"
     t.string "number"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
